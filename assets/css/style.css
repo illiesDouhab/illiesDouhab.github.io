@@ -190,8 +190,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
-    background-size:cover;
+    
+    background:url(../images/about/linux.jpg)no-repeat black;
+    background-size:auto;
     background-position: center;
     height:890px;
 }
@@ -675,7 +676,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     display: flex;
     align-items: center;
     height: 250px;
-}
+}welcome-banner
 .clients-area .item {padding: 0 25px;}
 
 .clients .clients-area .owl-carousel .owl-item img {
@@ -692,7 +693,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     background: #f9fbfd;
     padding: 50px 0 100px;
 }
-.single-contact-box {padding-top: 100px;}
+.single-contact-box > .row {
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 100px;
+}
+
 .contact-form  .form-group {
     margin-bottom: 20px;
     
