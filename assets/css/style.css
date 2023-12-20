@@ -196,7 +196,30 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background-position: center;
     height:890px;
 }
+
 .welcome-hero:before{ 
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;
+    background:rgba(31,44,108,.65);
+    width:100%;
+    height:100%;
+}
+
+.welcome-hero-banque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    
+    background:url(../images/portfolio/image-banque.avif)no-repeat black;
+    background-size:1350px;
+    background-position: center;
+    height:890px;
+}
+
+.welcome-hero-banque:before{ 
     position:absolute;
     content: " ";
     top:0;
@@ -859,4 +882,16 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
+.texteSAE p {
+    text-align: justify; /* Justifier le texte */
+    margin-left: 200px; /* Marge à gauche */
+    margin-right: 200px; /* Marge à droite */
+    font-size: 16.5px; /* Ajustez la taille du texte selon vos préférences */
+  }
+  
+  .texteSAE {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 /*========================Thank you=================
