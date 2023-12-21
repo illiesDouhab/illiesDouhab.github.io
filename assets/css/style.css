@@ -273,6 +273,51 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     height:100%;
 }
 
+.welcome-hero-thm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    
+    background:url(../images/portfolio/tryHackMe.png)no-repeat #232323;
+    background-size:1350px;
+    background-position: center;
+    height:890px;
+}
+
+.welcome-hero-thm:before{ 
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;
+    background:rgba(31,44,108,.65);
+    width:100%;
+    height:100%;
+}
+
+.welcome-hero-nvidia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    
+    background:url(../images/portfolio/nvidiapage.png)no-repeat white;
+    background-size:1350px;
+    background-position: center;
+    height:890px;
+}
+
+.welcome-hero-nvidia:before{ 
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;
+    background:rgba(31,44,108,.65);
+    width:100%;
+    height:100%;
+}
+
+
 
 /*.header-text-area*/
 .header-text h2 {
@@ -938,6 +983,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.texteSAE>img {
+    width: 700px; 
+    padding-bottom: 10%;
+
 }
 .thm{
     width: 40000px; /* Largeur souhaitée en pixels */
