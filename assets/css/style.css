@@ -229,6 +229,51 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     height:100%;
 }
 
+.welcome-hero-instal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    
+    background:url(../images/portfolio/InstallationPoste.jpg)no-repeat #2257B4;
+    background-size:1100px;
+    background-position: center;
+    height:890px;
+}
+
+.welcome-hero-instal:before{ 
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;
+    background:rgba(31,44,108,.65);
+    width:100%;
+    height:100%;
+}
+
+.welcome-hero-jeuLudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    
+    background:url(../images/portfolio/javaBanniere.png)no-repeat white;
+    background-size:1100px;
+    background-position: center;
+    height:890px;
+}
+
+.welcome-hero-jeuLudo:before{ 
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;
+    background:rgba(31,44,108,.65);
+    width:100%;
+    height:100%;
+}
+
+
 /*.header-text-area*/
 .header-text h2 {
     color: #fff;
@@ -889,9 +934,15 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-size: 16.5px; /* Ajustez la taille du texte selon vos préférences */
   }
   
-  .texteSAE {
+.texteSAE {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
+.thm{
+    width: 40000px; /* Largeur souhaitée en pixels */
+    height: 50px; /* Hauteur souhaitée en pixels */
+    object-fit: cover; /* Ajuste l'image tout en conservant le rapport d'aspect */
+
+}
 /*========================Thank you=================
