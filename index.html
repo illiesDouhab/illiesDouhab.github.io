@@ -349,6 +349,7 @@
 											</a>
 										</div><!-- /.isotope-overlay -->
 									</div><!-- /.item -->
+
 									<div class="item">
 										<img src="assets/images/portfolio/InstallationPoste.jpg" alt="portfolio image"/>
 										<div class="isotope-overlay">
@@ -392,14 +393,53 @@
 									</div><!-- /.item -->
 								</div><!-- /.col -->
 
-								<div class="item">
-									<img src="assets/images/portfolio/image-banque.avif" alt="portfolio image"/>
-									<div class="isotope-overlay">
-										<a href="./assets/otherPages/bdd.html">
-											Chasse au monstre 
-										</a>
-									</div><!-- /.isotope-overlay -->
-								</div><!-- /.item -->
+								<h1> Deuxieme année</h1>
+
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="assets/images/portfolio/monstres.png" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="./assets/otherPages/chassemonstre.html">
+												Chasse au monstre
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="assets/images/portfolio/japon.jpg" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="./assets/otherPages/Covoiturage.html" id="lienCovoiturage">
+												Stage Erasmus
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+
+								<script>
+									// Récupération du lien par son identifiant
+									var lienCovoiturage = document.getElementById('lienCovoiturage');
+									// Ajout d'un gestionnaire d'événement pour le clic sur le lien
+									lienCovoiturage.addEventListener('click', function(event) {
+										// Empêche le lien de suivre son comportement par défaut
+										event.preventDefault();
+										// Affiche l'alerte
+										alert("Ça arrive bientôt !");
+									});
+								</script>
+
+								<div>
+									<div class="item">
+										<img src="assets/images/portfolio/odoo.svg" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="./assets/otherPages/odoo.html">
+												SAE Déploiement d'application
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+
 
 							</div><!-- /.row -->
 						</div><!--/.isotope-->

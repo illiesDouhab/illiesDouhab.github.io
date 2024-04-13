@@ -1,0 +1,153 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Illies</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="../logo/portfolio.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+
+		<!--flat icon css-->
+		<link rel="stylesheet" href="../css/flaticon.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="../css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="../css/owl.carousel.min.css">
+		<link rel="stylesheet" href="../css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="../css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="../css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="../css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+    <body>
+        <header class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="../../index.html">ILLIES DOUHAB</a>
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                <li class=" smooth-menu active"></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+		</header><!-- /.top-area-->
+		<!-- top-area End -->
+
+        <!--welcome-hero start -->
+		<section id="welcome-hero" class="welcome-hero-odoo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="header-text">
+							<h2>SAE Déploiement d'application</h2>
+							<a href="https://gitlab.univ-lille.fr/illies.douhab.etu/sae-odoo" download>Lien Projet</a>
+						</div><!--/.header-text-->
+					</div><!--/.col-->
+				</div><!-- /.row-->
+			</div><!-- /.container-->
+		</section> 
+
+		<div class="texteSAE">
+
+            <h2>Introduction :</h2>
+            <p>
+                Notre projet SAE vise à simplifier et automatiser le processus d'installation d'Odoo, une plateforme de gestion d'entreprise, sur des machines distantes. Pour cela, nous avons développé des scripts Bash qui orchestrent l'installation et la configuration d'Odoo, ainsi que des composants essentiels tels que Traefik pour le reverse proxy et PostgreSQL pour la base de données. Le tout est encapsulé dans des conteneurs Docker, assurant ainsi une isolation et une portabilité accrues.
+            </p>
+
+            <br>
+        
+            <h2>Fonctionnalités clés :</h2>
+            <ol>
+                <li>
+                    <strong>Automatisation complète :</strong> Nos scripts prennent en charge l'ensemble du processus d'installation, depuis le déploiement des conteneurs Docker jusqu'à la configuration des paramètres spécifiques à chaque composant.
+                </li>
+                <li>
+                    <strong>Utilisation de Docker :</strong> Nous avons opté pour Docker en raison de sa facilité de déploiement, de sa gestion des dépendances et de son isolation des environnements. Cela garantit une installation propre et reproductible dans n'importe quel environnement Docker compatible.
+                </li>
+                <li>
+                    <strong>Traefik pour le reverse proxy :</strong> Traefik est intégré pour gérer le routage et la sécurité des requêtes entrantes vers les conteneurs Odoo. Cela simplifie le déploiement en éliminant la nécessité de configurer manuellement le reverse proxy.
+                </li>
+                <li>
+                    <strong>PostgreSQL comme base de données :</strong> PostgreSQL est utilisé comme moteur de base de données pour Odoo, assurant des performances élevées, une robustesse et une compatibilité avec de grands ensembles de données.
+                </li>
+                <li>
+                    <strong>Sauvegarde automatique :</strong> Nous avons également inclus des mécanismes de sauvegarde automatique pour garantir la sécurité des données. Les sauvegardes sont planifiées et stockées sur une machine dédiée, assurant ainsi la récupération en cas de problème.
+                </li>
+            </ol>
+
+            <br>
+
+
+            <p>
+                Ce projet m'a permis de développer mes compétences en automatisation et en déploiement d'applications. J'ai appris à concevoir des scripts Bash robustes et modulaires, ainsi qu'à utiliser des technologies telles que Docker, Traefik et PostgreSQL dans un contexte réel. De plus, en travaillant sur ce projet, j'ai gagné en compréhension des architectures logicielles modernes et en capacité à résoudre des problèmes complexes.
+            </p>
+
+            <br>
+
+                Odoo : <br> <img src="../images/portfolio/odoo-app.jpeg" alt=""></p>
+				
+			
+		</div>
+	
+
+		
+        <script src="../js/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/bootsnav.js"></script>
+        <script src="../js/jquery.sticky.js"></script>
+        <script src="../js/progressbar.js"></script>
+        <script src="../js/jquery.appear.js"></script>
+        <script src="../js/owl.carousel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="../js/custom.js"></script>
+    </body>
