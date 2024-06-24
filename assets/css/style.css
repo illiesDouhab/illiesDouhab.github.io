@@ -363,6 +363,29 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 
 
+.welcome-hero-Stage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    
+    background:url(../images/portfolio/En_Garde!.jpg)no-repeat black;
+    background-size:1350px;
+    background-position: center;
+    height:890px;
+}
+
+.welcome-hero-Stage:before{ 
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;
+    background:rgba(31,44,108,.65);
+    width:100%;
+    height:100%;
+}
+
+
 /*.header-text-area*/
 .header-text h2 {
     color: #fff;
